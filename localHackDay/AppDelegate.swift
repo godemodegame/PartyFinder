@@ -1,20 +1,11 @@
-//
-//  AppDelegate.swift
-//  localHackDay
-//
-//  Created by godemodegame on 07.12.2019.
-//  Copyright © 2019 godemodegame. All rights reserved.
-//
-
 import UIKit
+import NMAKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
         return true
     }
 

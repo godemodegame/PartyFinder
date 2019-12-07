@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FF2A7206EFC4D5CED24AC03 /* Pods_localHackDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FF604484AC7131C81E9D19 /* Pods_localHackDay.framework */; };
+		C12CB084239B9628008BA203 /* UIViewController+storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CB083239B9628008BA203 /* UIViewController+storyboard.swift */; };
+		C134B1C6239BB1EA007C2722 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134B1C5239BB1EA007C2722 /* MapView.swift */; };
+		C134B1C9239BC088007C2722 /* cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = C134B1C8239BC088007C2722 /* cafe.png */; };
+		C134B1D1239BC169007C2722 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134B1CA239BC169007C2722 /* MapPresenter.swift */; };
+		C134B1D2239BC169007C2722 /* MapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134B1CB239BC169007C2722 /* MapWorker.swift */; };
+		C134B1D3239BC169007C2722 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134B1CC239BC169007C2722 /* MapRouter.swift */; };
+		C134B1D4239BC169007C2722 /* MapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134B1CD239BC169007C2722 /* MapModels.swift */; };
+		C134B1D5239BC169007C2722 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134B1CE239BC169007C2722 /* MapViewController.swift */; };
+		C134B1D6239BC169007C2722 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134B1CF239BC169007C2722 /* MapInteractor.swift */; };
 		C1662BEB239B7C2600DD579C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1662BEA239B7C2600DD579C /* AppDelegate.swift */; };
 		C1662BED239B7C2600DD579C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1662BEC239B7C2600DD579C /* SceneDelegate.swift */; };
 		C1662BEF239B7C2600DD579C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1662BEE239B7C2600DD579C /* ViewController.swift */; };
-		C1662BF2239B7C2600DD579C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1662BF0239B7C2600DD579C /* Main.storyboard */; };
 		C1662BF4239B7C2700DD579C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1662BF3239B7C2700DD579C /* Assets.xcassets */; };
 		C1662BF7239B7C2700DD579C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1662BF5239B7C2700DD579C /* LaunchScreen.storyboard */; };
+		C1712C2D239B946900C00E61 /* MapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1712C2C239B946900C00E61 /* MapViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C12CB083239B9628008BA203 /* UIViewController+storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+storyboard.swift"; sourceTree = "<group>"; };
+		C134B1C5239BB1EA007C2722 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C134B1C8239BC088007C2722 /* cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cafe.png; sourceTree = "<group>"; };
+		C134B1CA239BC169007C2722 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		C134B1CB239BC169007C2722 /* MapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWorker.swift; sourceTree = "<group>"; };
+		C134B1CC239BC169007C2722 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		C134B1CD239BC169007C2722 /* MapModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModels.swift; sourceTree = "<group>"; };
+		C134B1CE239BC169007C2722 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C134B1CF239BC169007C2722 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
 		C1662BE7239B7C2600DD579C /* localHackDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localHackDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1662BEA239B7C2600DD579C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1662BEC239B7C2600DD579C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C1662BEE239B7C2600DD579C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C1662BF1239B7C2600DD579C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1662BF3239B7C2700DD579C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1662BF6239B7C2700DD579C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1662BF8239B7C2700DD579C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1712C2C239B946900C00E61 /* MapViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapViewController.storyboard; sourceTree = "<group>"; };
+		D4FF604484AC7131C81E9D19 /* Pods_localHackDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_localHackDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8BB5CCBCD041B8A7F09175 /* Pods-localHackDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-localHackDay.debug.xcconfig"; path = "Target Support Files/Pods-localHackDay/Pods-localHackDay.debug.xcconfig"; sourceTree = "<group>"; };
+		FABC57536915611786A0973C /* Pods-localHackDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-localHackDay.release.xcconfig"; path = "Target Support Files/Pods-localHackDay/Pods-localHackDay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF2A7206EFC4D5CED24AC03 /* Pods_localHackDay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		347B923481DC2675070CB4C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4FF604484AC7131C81E9D19 /* Pods_localHackDay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7D87192826C2E23C6F4447E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BB5CCBCD041B8A7F09175 /* Pods-localHackDay.debug.xcconfig */,
+				FABC57536915611786A0973C /* Pods-localHackDay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C134B1C7239BB22F007C2722 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C134B1C5239BB1EA007C2722 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C1662BDE239B7C2600DD579C = {
 			isa = PBXGroup;
 			children = (
 				C1662BE9239B7C2600DD579C /* localHackDay */,
 				C1662BE8239B7C2600DD579C /* Products */,
+				B7D87192826C2E23C6F4447E /* Pods */,
+				347B923481DC2675070CB4C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +109,29 @@
 				C1662BEA239B7C2600DD579C /* AppDelegate.swift */,
 				C1662BEC239B7C2600DD579C /* SceneDelegate.swift */,
 				C1662BEE239B7C2600DD579C /* ViewController.swift */,
-				C1662BF0239B7C2600DD579C /* Main.storyboard */,
+				C1712C2B239B93FE00C00E61 /* Map */,
+				C134B1C7239BB22F007C2722 /* Views */,
+				C12CB083239B9628008BA203 /* UIViewController+storyboard.swift */,
 				C1662BF3239B7C2700DD579C /* Assets.xcassets */,
+				C134B1C8239BC088007C2722 /* cafe.png */,
 				C1662BF5239B7C2700DD579C /* LaunchScreen.storyboard */,
 				C1662BF8239B7C2700DD579C /* Info.plist */,
 			);
 			path = localHackDay;
+			sourceTree = "<group>";
+		};
+		C1712C2B239B93FE00C00E61 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C1712C2C239B946900C00E61 /* MapViewController.storyboard */,
+				C134B1CA239BC169007C2722 /* MapPresenter.swift */,
+				C134B1CB239BC169007C2722 /* MapWorker.swift */,
+				C134B1CC239BC169007C2722 /* MapRouter.swift */,
+				C134B1CD239BC169007C2722 /* MapModels.swift */,
+				C134B1CE239BC169007C2722 /* MapViewController.swift */,
+				C134B1CF239BC169007C2722 /* MapInteractor.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1662BFB239B7C2700DD579C /* Build configuration list for PBXNativeTarget "localHackDay" */;
 			buildPhases = (
+				FD677779C5B61AB1C9DCEE7E /* [CP] Check Pods Manifest.lock */,
 				C1662BE3239B7C2600DD579C /* Sources */,
 				C1662BE4239B7C2600DD579C /* Frameworks */,
 				C1662BE5239B7C2600DD579C /* Resources */,
+				4B07EFC4AE4F52AB5E51C3C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +194,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1712C2D239B946900C00E61 /* MapViewController.storyboard in Resources */,
 				C1662BF7239B7C2700DD579C /* LaunchScreen.storyboard in Resources */,
+				C134B1C9239BC088007C2722 /* cafe.png in Resources */,
 				C1662BF4239B7C2700DD579C /* Assets.xcassets in Resources */,
-				C1662BF2239B7C2600DD579C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B07EFC4AE4F52AB5E51C3C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-localHackDay/Pods-localHackDay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-localHackDay/Pods-localHackDay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-localHackDay/Pods-localHackDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD677779C5B61AB1C9DCEE7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-localHackDay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1662BE3239B7C2600DD579C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12CB084239B9628008BA203 /* UIViewController+storyboard.swift in Sources */,
+				C134B1D3239BC169007C2722 /* MapRouter.swift in Sources */,
+				C134B1C6239BB1EA007C2722 /* MapView.swift in Sources */,
+				C134B1D5239BC169007C2722 /* MapViewController.swift in Sources */,
+				C134B1D2239BC169007C2722 /* MapWorker.swift in Sources */,
 				C1662BEF239B7C2600DD579C /* ViewController.swift in Sources */,
+				C134B1D6239BC169007C2722 /* MapInteractor.swift in Sources */,
+				C134B1D4239BC169007C2722 /* MapModels.swift in Sources */,
 				C1662BEB239B7C2600DD579C /* AppDelegate.swift in Sources */,
 				C1662BED239B7C2600DD579C /* SceneDelegate.swift in Sources */,
+				C134B1D1239BC169007C2722 /* MapPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C1662BF0239B7C2600DD579C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1662BF1239B7C2600DD579C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C1662BF5239B7C2700DD579C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +394,13 @@
 		};
 		C1662BFC239B7C2700DD579C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8BB5CCBCD041B8A7F09175 /* Pods-localHackDay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9SGQL8822;
 				INFOPLIST_FILE = localHackDay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +414,13 @@
 		};
 		C1662BFD239B7C2700DD579C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABC57536915611786A0973C /* Pods-localHackDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9SGQL8822;
 				INFOPLIST_FILE = localHackDay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

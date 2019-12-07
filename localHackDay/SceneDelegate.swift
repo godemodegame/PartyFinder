@@ -1,23 +1,18 @@
-//
-//  SceneDelegate.swift
-//  localHackDay
-//
-//  Created by godemodegame on 07.12.2019.
-//  Copyright © 2019 godemodegame. All rights reserved.
-//
-
 import UIKit
+import NMAKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+                NMAApplicationContext.setAppId("7o3yE9XAkFminAeZhbd6", appCode: "6ovf8c091ugMBVTJ6KB8uA", licenseKey: "W+fZ85thr994Lxi+q8oDAs57Q7dfdHW9LMZO1PpC3ptnwuzNVM5otsfoHkINBpeLJr/WorV4kjrh7J2Y4GuXVhQqv8ezByn6KFrHAThUVaLWHj0mg10mAo+tWofO1Hu9kXqPXFy5il0r4Y8wMxWYH6f4ieSpe2ioWJLZD3TyDAIllLNigQJviSCWuWrQ1lhk7EJHqd2gMZ1phb0BDS5OIM2wKIA2ZJvcfecHdebxSJF9ROf76x5krluN9s9v6sMIoVh3N+YwReR/5Az132PDwLCVPctTnqQFUUHts0gq4Op6BVKHJwyNgDmZvt48pSVP23P98gPn7h1M60ss0VASXXlIYtQmWkzNZyk0UUwPB2kastP9VgJJb3/v9Vodrx2dOdvYk3ydp8BSEy0xgqaw2z+BI1EMSbN9RwMAgIo5z6KVp79oxJqmYpD6114/mgC993CjgvWtdWW6zyhCJI2wOUmwJ+SeyH8SNhBnwQI4WgrLr4TN69pIc7mpIlEm7E2E4v/7Zeh3GYZKDqZaQTTzmcDU1hBTITZ8XQ7zwyOekyT6ZBOAqBRdxPvBJR5RF2jvlhqZfveAymhD4Yhs+soaGnFPeQmL4Tlj9aTPlfbNeREgaHvHrv6JJ7O2VhRMlVUCi5xBCHhJ7x3xAgdUMLUBLyu9ebwlwcIkN5pygkezRPk=")
+        self.window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        self.window?.windowScene = windowScene
+        let viewController: MapViewController = MapViewController.loadFromStoryboard()
+        self.window?.rootViewController = viewController
+        self.window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
